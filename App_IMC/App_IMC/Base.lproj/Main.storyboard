@@ -67,7 +67,7 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVj-I2-1AU"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDV-Oy-NUf">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VDV-Oy-NUf">
                                 <rect key="frame" x="0.0" y="310" width="428" height="582"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsL-Yq-hl5">
@@ -133,6 +133,7 @@
                         <outlet property="lbResult" destination="JsL-Yq-hl5" id="L01-fY-cIF"/>
                         <outlet property="tfHeight" destination="TsK-Td-yyv" id="LXA-lS-wfd"/>
                         <outlet property="tfWeight" destination="D1t-YA-DOb" id="wCs-PE-GAn"/>
+                        <outlet property="viResult" destination="VDV-Oy-NUf" id="YEh-CD-S9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
