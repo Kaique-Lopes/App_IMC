@@ -23,7 +23,11 @@
                         <color key="backgroundColor" red="0.31764705882352939" green="0.69411764705882351" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mAE-rG-uSn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3nS-rh-Smy"/>
+                            <constraint firstItem="mAE-rG-uSn" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Qb-8F-YXy"/>
+                            <constraint firstItem="mAE-rG-uSn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Uk-9E-p2C"/>
+                            <constraint firstItem="mAE-rG-uSn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ESy-o3-D02"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mAE-rG-uSn" secondAttribute="bottom" id="Gtz-Vv-6UP"/>
+                            <constraint firstItem="mAE-rG-uSn" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Mdo-gl-mA2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mAE-rG-uSn" secondAttribute="trailing" id="vbg-yl-yMb"/>
                             <constraint firstItem="mAE-rG-uSn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xr5-hI-VUR"/>
                         </constraints>
