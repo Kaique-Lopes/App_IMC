@@ -41,9 +41,10 @@ class ViewController: UIViewController {
             resultFinal()
         }
     }
+    
     func resultFinal() {
-        var result: String = ""
-        var image: String = ""
+        var result: String = .empty
+        var image: String = .empty
         
         switch imc {
             case 0..<16:
@@ -71,3 +72,8 @@ class ViewController: UIViewController {
 
 }
 
+extension String {
+   static var empty: String {
+        return ""
+    }
+}
