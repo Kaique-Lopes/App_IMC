@@ -18,12 +18,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupKeyboard(textFields: [tfHeight, tfWeight])
         // Do any additional setup after loading the view.
     }
         // MARK: - Close Keyboard
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         view.endEditing(true)
+    }
+    
+    func setupKeyboard(textFields: [UITextField]) {
+        for textField in textFields {
+            textField.keyboardType = .decimalPad
+            textField.keyboardAppearance = .dark
+        }
     }
     
     @IBAction func calculate(_ sender: Any) {
